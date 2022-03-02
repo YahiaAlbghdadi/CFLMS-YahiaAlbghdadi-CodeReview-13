@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: inline-block;
+    margin: 1px auto;
+}
+
+.image {
+    max-width: 240px;
+    max-height: 160px;
+    border: 3px solid rgb(212, 110, 106);
+}
+
+.horz {
+    margin: 10px auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 40px;
+}
+
+.description {
+    max-width: 250px;
+    margin: 1px auto;
+}
+
+.title {
+    max-width: 280px;
+    margin: 1px auto;
+}
+
+.parent {
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+}
+
+.location {
+    color: orangered;
+}
+
+.img-thumbnail {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.event {
+    margin: 10px auto;
+    text-align: center;
+}

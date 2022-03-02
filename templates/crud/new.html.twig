@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Events{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Create new Events</h1>
+
+    {{ include('crud/_form.html.twig') }}
+
+    <a href="{{ path('crud_index') }}">back to list</a>
+</div>
+{% endblock %}
